@@ -1,0 +1,6 @@
+{
+  "name": "FRIENDS 🌙",
+  "description": "Một trò chơi lật lá bài deeptalk dành cho 3 người bạn để cùng trò chuyện sâu sắc về tình yêu, nỗi sợ, sự trưởng thành và suy nghĩ chưa từng nói ra.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-serif: "Cormorant Garamond", serif;
+}
+
+/* Base body styles for soft focus look */
+body {
+  font-family: var(--font-sans);
+  background-color: #FFFFFF;
+  color: #111827;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom typing cursor blink */
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+.typing-cursor {
+  border-right: 2px solid #374151;
+  animation: blink 0.75s step-end infinite;
+}
+
+/* Custom card glow gradients */
+.card-ambient-shadow {
+  box-shadow: 0 25px 50px -12px rgba(37, 99, 235, 0.15), 0 0 40px rgba(37, 99, 235, 0.05);
+}
+
+.card-active-glow {
+  box-shadow: 0 30px 60px -15px rgba(29, 78, 216, 0.25), 0 0 50px rgba(29, 78, 216, 0.12);
+}
+
